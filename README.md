@@ -20,16 +20,18 @@ Learn C++ fundamentals through practical coding exercises.
 Explore sample code and resources to help you succeed in the challenge.
 Getting Started:
 
-Clone the repository: git clone https://github.com/FixedInteger/cpp-day01
+Clone the repository: 
+```git clone https://github.com/FixedInteger/cpp-day01```
 Review the Day 1 challenge tasks and associated code.
+
 Follow the instructions provided in the challenge description.
 Contributing:
 
-While this repository is primarily for personal learning, feel free to contribute by suggesting improvements or reporting issues related to the Day 1 challenge.
+    While this repository is primarily for personal learning, feel free to contribute by suggesting improvements or reporting issues related to the Day 1 challenge.
 
 License:
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+    This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments:
 
