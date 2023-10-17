@@ -15,4 +15,4 @@ class Weapon
         void setType(std::string ptype);
 };
 
-#endif // WEAPON_HPP
+#endif 
