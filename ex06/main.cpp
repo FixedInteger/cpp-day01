@@ -9,8 +9,6 @@ class Harl
 		void error();
 	public:
 		void complain( std::string level );
-
-   
 };
 void Harl::debug()
 {
