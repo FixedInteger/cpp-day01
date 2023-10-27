@@ -45,31 +45,25 @@ int before_main(std:: string str, std::string p[4])
 }
 void Harl::complain(std::string level) 
 {
-
 	std::string p[4] = {"debug", "info", "warning", "error"};
 	void (Harl::*ptr[])() = {&Harl::debug, &Harl::info, &Harl::warning, &Harl::error};
-	int i = 0;
-	while (i < 4)
-	{
 		switch(before_main(level, p))
 		{
 			case 0:
 				(this->*ptr[0])();
-				return;
+				break;
 			case 1:
 				(this->*ptr[1])();
-				return;
+				break;
 			case 2:
 				(this->*ptr[2])();
-				return;
+				break;
 			case 3:
 				(this->*ptr[3])();
-				return;
+				break;
 			default:
 				std::cout << "Wrong argument" << std::endl;
-			return;
-		}
-		i++;
+			break;
 	}
 	
 }

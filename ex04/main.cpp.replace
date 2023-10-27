@@ -44,6 +44,7 @@ if (ac == 4)
 		{
 			Torewrite_file << modifiedContent;
 			Torewrite_file.close();
+			std::cout << "File '" << newFileName << "' has been created with the modified content." << std::endl;
 		} 
 		else 
 			std::cerr << "Failed to open the new file for writing." << std::endl;
@@ -53,10 +54,7 @@ if (ac == 4)
 	}
 
 	else 
-	{
-		std::cerr << "READ THE SUBJECT" << std::endl;
 		std::cerr << "Usage: " << av[0] << " <filename> <old_string> <new_string>" << std::endl;
-	}
 return 0;
 }
 

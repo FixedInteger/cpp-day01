@@ -3,8 +3,11 @@
 int main()
 {
     Zombie *zombie =NULL;
-    zombie = zombie->zombieHorde(5,"Zombie");
-    for (int i = 0; i < 5; i++)
+    int  N = 5;
+    if(N < 0)
+        return(121);
+    zombie = zombie->zombieHorde(N,"Zombie");
+    for (int i = 0; i < N; i++)
     {
         zombie[i].announce();
     }
