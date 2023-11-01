@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   Zombie.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: macair <macair@student.42.fr>              +#+  +:+       +#+        */
+/*   By: heddahbi <heddahbi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/10 17:31:08 by macair            #+#    #+#             */
-/*   Updated: 2023/10/25 02:25:29 by macair           ###   ########.fr       */
+/*   Created: 2023/11/01 13:03:48 by heddahbi          #+#    #+#             */
+/*   Updated: 2023/11/01 13:03:49 by heddahbi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+
 
 #ifndef ZOMBIE_HPP
 # define ZOMBIE_HPP

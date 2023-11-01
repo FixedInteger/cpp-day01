@@ -1,9 +1,11 @@
-NAME = harlFilter
+NAME = Harl
 CXX = c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
+HEADERS = Harl.hpp
 
 TARGET = $(NAME)
 SRCS = main.cpp \
+		Harl.cpp \
 
 OBJS = $(SRCS:.cpp=.o)
 
@@ -12,7 +14,7 @@ OBJS = $(SRCS:.cpp=.o)
 all: $(TARGET)
 $(TARGET): $(OBJS)
 	$(CXX) $(CXXFLAGS) -o $@ $(OBJS)
-%.o: %.cpp %.hpp
+%.o: %.cpp $(HEADERS)
 	$(CXX) $(CXXFLAGS) -c -o $@ $<
 
 clean:
@@ -22,6 +24,3 @@ fclean: clean
 	rm -f $(TARGET)
 
 re: fclean all
-
-
-

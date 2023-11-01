@@ -19,6 +19,7 @@ void ::Zombie::announce()
 }
 Zombie::Zombie()
 {
+    
 }
 Zombie::~Zombie()
 {
