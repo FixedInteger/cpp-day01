@@ -2,7 +2,8 @@
 #include <fstream>
 #include <string>
 
-std::string customReplace(const std::string& str, const std::string& from, const std::string& to) {
+std::string customReplace(const std::string& str, const std::string& from, const std::string& to) 
+{
     std::string result;
     size_t start = 0;
     size_t found = str.find(from);
@@ -16,7 +17,6 @@ std::string customReplace(const std::string& str, const std::string& from, const
         found = str.find(from, start);
     }
     result += str.substr(start);
-
     return (result);
 }
 int main(int ac, char **av) 
@@ -49,7 +49,7 @@ if (ac == 4)
 			std::cerr << "Failed to open the new file for writing." << std::endl;
 	}
 	else 
-		std::cerr << "Failed to open the file for reading." << std::endl;
+		std::cerr << "file 's name does not exist "<< std::endl;
 	}
 
 	else 
